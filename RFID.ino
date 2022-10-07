@@ -53,9 +53,6 @@ void setup() {
     pinMode(LED3, OUTPUT);
     pinMode(LED4, OUTPUT);
     
-    digitalWrite(5,HIGH);
-    delay(3000);
-    digitalWrite(5,LOW);
     
         if(a == read_rfid){
           digitalWrite(6,HIGH);
